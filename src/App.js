@@ -65,18 +65,18 @@ function App() {
 
             <Header books={books} Library={Library}/>
 
-            <BrowserRouter basename="/lib">
 
 
 
-            <Routes>
-                <Route path="//lib" element={<Books books={books} /> }/>
-                <Route path="//lib/book/:id" element={<BooksDetails book={book}/>}/>
+
+               <Routes>
+                  <Route path="/lib/" element={<Books books={books} /> }/>
+                  <Route path="/lib//book/:id" element={<BooksDetails book={book}/>}/>
 
 
 
-            </Routes>
-            </BrowserRouter>
+            <   /Routes>
+
 
 
 
