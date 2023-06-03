@@ -47,14 +47,8 @@ function Books(props) {
                 <div>
                     <p>{book.volumeInfo.title}</p>
                     <img src={book.volumeInfo.imageLinks?.smallThumbnail} alt={book.id} onClick={()=>navigate(`/book/${book.id}`)}/>
-                    <h2>Description</h2>
-                    <p>{book.description}</p>
-                    <h2>Authors</h2>
-                    <p>{book.volumeInfo.authors}</p>
                     <a href={book.volumeInfo.previewLink}>Read</a>
-                    <p>{book.volumeInfo.publisher}</p>
-                    <p>{book.volumeInfo.publishedDate}</p>
-                    <p>{book.retailPrice?.amount}</p>
+
 
                 </div>
 
