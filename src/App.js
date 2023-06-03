@@ -65,7 +65,7 @@ function App() {
 
             <Header books={books} Library={Library}/>
 
-            <BrowserRouter basename="/lib">
+            <BrowserRouter basename="/lib/">
 
 
 
