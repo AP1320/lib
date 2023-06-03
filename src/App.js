@@ -68,8 +68,8 @@ function App() {
 
 
             <Routes>
-                <Route path="" element={<Books books={books} /> }/>
-                <Route path="book/:id" element={<BooksDetails book={book}/>}/>
+                <Route path="/" element={<Books books={books} /> }/>
+                <Route path="/book/:id" element={<BooksDetails book={book}/>}/>
 
 
 
