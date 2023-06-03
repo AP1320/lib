@@ -45,7 +45,7 @@ function Books(props) {
         return (
             <div  className="Books" key={book.id}>
                 <div>
-                    <img src={book.volumeInfo.imageLinks?.smallThumbnail} alt={book.id} onClick={()=>navigate(`/book/${book.id}`)}/>
+                    <img src={book.volumeInfo.imageLinks?.smallThumbnail} alt={book.id} onClick={()=>navigate(`/lib//book/${book.id}`)}/>
                     <p>{book.volumeInfo.title}</p>
 
 
