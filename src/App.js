@@ -64,12 +64,11 @@ function App() {
 
 
             <Header books={books} Library={Library}/>
-            <Books books={books} />
 
 
 
             <Routes>
-
+                <Books books={books} />
                 <Route path="/book/:id" element={<BooksDetails book={book}/>}/>
 
 
